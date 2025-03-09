@@ -1,0 +1,29 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.content-container {
+  display: flex;
+  gap: 30px;
+}
+
+.loading-indicator {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.error-message {
+  padding: 15px;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
